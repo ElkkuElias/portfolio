@@ -1,0 +1,29 @@
+
+.socialssocials{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 2fr;
+  grid-gap: 20px;
+  width: 220px;
+  height: 100px;
+}
+.sosialscards {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 1.6;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    line-height: 80%;
+  }
